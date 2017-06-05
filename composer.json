@@ -1,0 +1,29 @@
+{
+    "name": "golfieri/php",
+    "description": "Provides a multi-layered caching abstraction",
+    "keywords": ["golfieri", "php"],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=7.0",
+        "linio/util": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Golfieri\\PHP\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Golfieri\\PHP\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
