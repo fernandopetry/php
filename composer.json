@@ -16,7 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Golfieri\\PHP\\": "src"
+            "Golfieri\\PHP\\": "src",
+            "App\\": "App"
         }
     },
     "autoload-dev": {
